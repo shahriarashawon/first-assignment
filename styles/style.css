@@ -1,0 +1,223 @@
+/* universal  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+  }
+  /* section combination and footer subscribe button */
+  .sub-btn{
+    font-size: 20px;
+    font-family: 600;
+    color: #f15b22;
+    background: #ffffff;
+    padding: 20px 26px;
+    border: 0;
+    border-radius: 5px;
+  }
+  /* header part */
+  .header {
+    height: 800px;
+    background-image: url("../images/banner/banner1.png");
+    background-size: cover;
+  }
+  .header .header-container {
+    display: flex;
+    justify-content: center;
+  
+  }
+  .header-title {
+    font-size: 65px;
+    font-weight: 700;
+    margin: 281px 190px 24px 700px;
+  }
+  .header-title span{
+     padding-left: 250px ;
+  }
+  .header-description {
+    text-align: center;
+    margin: 0 190px 30px 700px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #444343;
+  }
+  .btn-primary {
+    margin-left: 950px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: orangered;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+  }
+  .btn-primary .fa-phone-volume {
+    padding-right: 2px;
+  }
+  
+  /* main part */
+  .section {
+    margin-top: 140px;
+  }
+  .container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+  }
+  .container-image {
+    height: 722px;
+  }
+  .container-content {
+    margin-left: 142px;
+    margin-right: 260px;
+  }
+  .container-title {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .container-description,
+  .container-point {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+  }
+  .container-description {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .container-point .fa-check {
+    margin-top: 5px;
+    color: green;
+  }
+  /* my plans section */
+  .plans-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .plans-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .plans-container-info {
+    margin: 0 50px;
+  }
+  .plans-container-info .center {
+    display: block;
+    margin: 0 auto;
+  }
+  .plans-container-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 16px 0;
+  }
+  .plans-container-description  {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+  }
+  /* dream section */
+  .dream-container{
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    height: 300px;
+    margin: 0 150px ;
+    text-align: center;
+    background-image:linear-gradient(to top,transparent, white), url('../images/web-dev-concept.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dream-title{
+     font-weight: 700;
+    font-size: 50px;
+    color: rgb(41, 41, 46);
+    margin-top: 55px ;
+    margin-bottom: 15px;
+  }
+  .dream-description{
+    font-size: 18px;
+    font-weight: 500;
+    color:#444343 ;
+  }
+  /* section combination part */
+  .combination {
+    height: 300px;
+    border: 0;
+    border-radius: 8px;
+    margin: 0 150px;
+    background-image: linear-gradient(to left, transparent, rgba(241, 91, 34)),
+      url("../images/watch.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .comb-title {
+    font-size: 48px;
+    font-family: 700;
+    color: #ffffff;
+    padding-top:50px;
+    padding-left: 60px;
+    padding-right:400px;
+  }
+  .combination .sub-btn {
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  
+  /* footer part */
+  .footer {
+    margin-top: 130px;
+    background: #151414;
+  }
+  .footer-container {
+    height: 577px;
+    border:0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* footer information */
+  .footer-container-info {
+    margin: 110px 350px 150px 210px;
+  }
+  .footer-info-title {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .footer-description {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+  .footer-icons-container {
+    display: flex;
+  }
+  .footer-icon {
+    margin-right: 17px;
+    height: 46px;
+  }
+  /* footer subscribe */
+  .footer-container-subscribe {
+    margin: 130px 229px 243px 0;
+  }
+  .footer-subscribe-title {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .subscribe-by-email {
+    margin-top: 30px;
+    margin-bottom: 16px;
+    color: #ffffff;
+    background: #151414;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 21px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+  }
